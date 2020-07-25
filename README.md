@@ -26,6 +26,7 @@
 
 ### A notepad for what I've learned along the way. This is for personal future reference so it's a bit messy. 
 [Good Stack discussion on money and currency in Java](https://stackoverflow.com/questions/8148684/what-data-type-to-use-for-money-in-java)
+
 [Interesting post on why never to use Double or Float](https://stackoverflow.com/questions/3730019/why-not-use-double-or-float-to-represent-currency)
 
 
