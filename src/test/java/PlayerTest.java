@@ -10,7 +10,7 @@ public class PlayerTest {
 
     @Before
     public void before(){
-        this.player = new Player("Harrison");
+        this.player = new Player("Harrison", 20);
         this.playingCard = new PlayingCard(Suit.HEARTS, Rank.ACE);
     }
 
@@ -30,6 +30,17 @@ public class PlayerTest {
         player.addCardToHand(playingCard);
         player.addCardToHand(playingCard);
         assertEquals(2, player.showHand().size());
+    }
+
+    @Test
+    public void playerStartsNotBust(){
+        assertEquals(false, player.isBust());
+    }
+
+    @Test
+    public void playerCanGoBust(){
+        player.goBust();
+        assertEquals(true, player.isBust());
     }
 
 
