@@ -29,4 +29,6 @@
 
 [Interesting post on why never to use Double or Float](https://stackoverflow.com/questions/3730019/why-not-use-double-or-float-to-represent-currency)
 
+[Thoughtful article on Java's JSR 354 Money specification, not currently included with Java 1.9 but can be imported](https://blog.avenuecode.com/jsr-354-the-java-money-api?hs_amp=true)
+
 
